@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="fanClub">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Ashanti's Fan Page Sign Up</title>
+</head>
+
+    
+<body ng-controller="FanController">
+    <h1>Hey Ashanti's Bestie! Sign up for Fan Club below!</h1>
+
+        <div class="container">
+            <div class="vertical-center">
+                <div class="center">
+        <form ng-submit="addThisFan()">
+            <input type="text" ng-model="firstName" size="30" placeholder="First Name"><br>
+            <br>
+            <input type="text" ng-model="lastName" size="30" placeholder="Last Name"><br>
+            <br>
+            <input type="text" ng-model="address" size="30" placeholder="Address"><br>
+            <br>
+            <input type="text" ng-model="city" size="30" placeholder="City"><br>
+            <br>
+            <input type="text" ng-model="state" size="30" placeholder="State"><br>
+            <br>
+            <input type="text" ng-model="country" size="30" placeholder="Country"><br>
+            <br>
+            <input type="text" ng-model="phone" size="30" placeholder="Phone Number"><br>
+            <br>
+            <input type="text" ng-model="email" size="30" placeholder="Email Address"><br>
+            <br>
+            <input class="btn property" type="submit" value="Submit">
+            </form>
+            </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
